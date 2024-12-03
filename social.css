@@ -1,0 +1,78 @@
+.container{
+    width: 340px;
+    height: 580px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    justify-items: center;
+    display: grid;
+    
+    
+    
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.london{
+    color: gold;
+    display: grid;
+    margin: 2px;
+    padding: 2px;
+}
+
+.front{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    display: grid;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 10px;
+ 
+}
+
+}
+
+
+
+@media (min-width: 968px) {
+    .container{
+        display: grid;
+        width: 500px;
+        height: 850px;
+    }
+
+    .london{
+        color: gold;
+        display: grid;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .front{
+        color: white;
+        margin: 0%;
+        padding: 0%;
+    }
+    h1{
+        color: white;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+}
